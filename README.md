@@ -1,25 +1,19 @@
+# A Mod that adds “roles” to Minecraft
 
-Installation information
-=======
+# Description
+- Each role has its own strengths and weaknesses.
+- This is useful for multiplayer games and similar scenarios.
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+# How to Use
+- When use a command like ``/role random``, roles are automatically assigned by random selection.
+- When use a command like ``/role set``, roles are assigned by your selection.
+- Use ``/role set none`` to remove your role.
+- Once a role is assigned, a description of that role is sent to the chat, and the role name and flavor text are displayed in the title and subtitle fields.
+- Positions with specific statuses are displayed as a GUI in the lower-left corner of the screen.
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+# Roles
+For details, please refer to ``roles.txt``
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
-
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
-
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+# Datapack
+- Click here for the Data Pack version ↓↓↓
+https://github.com/Ardcameg/town-of-crafters
