@@ -1,0 +1,82 @@
+1. Miner - Strike While It’s Ore.
+    + Block Break Speed: +400%
+    - Attack Damage: -20%
+    - Attack Speed: -75%
+    > [Even Stones are Ores] - When mine stone pr deepslate, drop xp orbs.
+
+2. Warrior - Blade Meets Fate.
+    + Attack Damage: +50%
+    +  Attack Speed: +50%
+    -  Block Break Speed: -50%
+    > [Morale] Gain various effects based on the number of mobs you've killed.
+      * 10+: Strength Lv.1
+      * 25+: Resistance Lv.1
+      * 50+: Night Vision Lv.1
+      * 100+: HP Boost Lv.5
+      * 200+: Speed Lv.3
+      * 500+: Strength Lv.5
+      * 1000+: Hunger Lv.4
+
+3. Tank - Stand Like Stone.
+   + Max Health: +100%
+   + Knockback Resistance: +999%
+   + Damage Taken: -40%
+   - Attack Speed: -25%
+   - Movement Speed: -20%
+   - Gravity: +25%
+   > [Self-destruct] When killed by a monster, deals 100 damage to all monsters within a 5-block radius.
+   > The initial value of [Self-destruct] is 0.
+
+4. Witch - Brew Your Own Success.
+    > [Brewing] One beneficial potion effect and one harmful potion effect are randomly applied.
+        When you respawn, each effect is randomly changed.
+        * Beneficial
+            * Water Breathing Lv.1
+            * Movement Speed Lv.5
+            * Night Vision Lv.1
+            * Luck Lv.1
+            * Regeneration Lv.3
+            * Hero of the Village Lv.5
+            * Resistance Lv.1
+            * Strength Lv.5
+        * Harmful
+            * Blindness Lv.1
+            * Darkness Lv.1
+            * Glowing Lv.1
+            * Jump Boost Lv.5
+            * Mining Fatigue Lv.2
+            * Poison Lv.1
+            * Unluck Lv.1
+            * Weakness Lv.1
+            * Hunger Lv.3
+
+5. Gambler - Raise!
+    > [All-in!] When you attack, you may instantly defeat the opponent.
+        Otherwise, you take damage equal to the target’s current health (capped at 75% of your max health).
+
+6. Builder - Shape the World.
+    + Fall Damage: -999%
+    + Step Height: +100%
+    + Block Interaction Range: +200%
+    - Attack Damage: -999%
+    - Max Health: -50%
+
+7. Justice - That's Wrong
+    + Attack Damage: +250%
+    + Attack Speed: +50%
+    > [Self-blame] When you kill a monster, increase [Justice] by 1. When you kill a non-monster,
+            deal damage to yourself equal to your [Justice] value, and reset [Justice].
+        The initial value of [Justice] is 10, and from the second time onward, it becomes half of the max health.
+
+8. Ultimate Kind - Too much kindness invites death.
+    > [Kind-Heart]  Absorbs damage dealt to all friendly mobs within range, increasing [Friend] by 1 per instance.
+                The range is 1 block per [Friend] (minimum: 5).
+        When attacked by an enemy mob, or when attacking a friendly mob,
+            the attack is nullified, and damage equal to the value of [Friend] is dealt, resetting [Friend].
+            This damage is not absorbed.
+    > The initial value of [Friend] is 0.
+
+8. Golem - Core of Fragility.
+    + Damage Taken: -999%
+    + Knockback Resistance: +999%
+    > [Achilles' Heel] If you take even 1 point of fall damage, magic damage, or drowning damage, you will die.

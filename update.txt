@@ -1,0 +1,8 @@
++ Addition
+- Deletion
+~ Changes
+> Bug Fixes
+* Others
+
+ver1.0
++ Initial release

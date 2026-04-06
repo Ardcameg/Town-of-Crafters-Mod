@@ -1,0 +1,8 @@
+{
+  "message_id": "lose_bet",
+  "scaling": "never",
+  "exhaustion": 0.0,
+  "bypasses_armor": true,
+  "bypasses_invulnerability": true,
+  "effects": "freezing"
+}
