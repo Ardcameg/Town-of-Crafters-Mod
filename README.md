@@ -15,5 +15,4 @@
 For details, please refer to ``roles.txt``
 
 # Datapack
-- Click here for the Data Pack version ↓↓↓
-https://github.com/Ardcameg/town-of-crafters
+- Click here for the Data Pack version : [Town of Crafters (Datapack)](<https://github.com/Ardcameg/town-of-crafters>)
